@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Shop</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product h3 {
+    margin: 0;
+    float: left;
+    width: 33.33%;
+            padding: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+ .img {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+            }
+
+fieldset{
+      
+            style: center;
+            border-radius: 20%;
+            border: 20%;
+            }
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>My Online Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                 <li><a href="#Login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <div class="img">
+                
+            <img src="https://media.karousell.com/media/photos/products/2023/8/13/ferrari_f1_jacket_1691917405_bcdd9f08.jpg" style="width:80%">
+            <h3>White Ferrari Vintage Racing Jacket</h3>
+            <p>Price: $5,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="img">
+            <img src="https://static.wixstatic.com/media/1845ae_c7e3b49a08974905ace702523baa0e34~mv2.png/v1/fill/w_540,h_720,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1845ae_c7e3b49a08974905ace702523baa0e34~mv2.png" style="width:80%">
+            <h3>Red Bull Vintage Racing Jacket</h3>
+            <p>Price: $6,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFoPQy9-SIRCnsfVMyi1Qa_JXtGfzoux98YHiZ_c7q7Ucfhe1k6-U6qJh99ij4lkYPWk&usqp=CAU" style="width:40%">
+            <h3>Red Mercedes Vintage Racing Jacket</h3>
+            <p>Price: $7,000</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+        <fieldset>
+        <div>
+        <label for="Username">Username</label> <br>
+           <input id="Username" type="text" name= "Username">
+    
+          <label for="Password">Password</label><br>
+           <input id="Password" type="text" name= "Password"> <br>
+         </div>
+     </fieldset>
+
+    <footer>
+        <p>&copy; 2024 My Online Shop</p>
+    </footer>
+</body>
+</html>
